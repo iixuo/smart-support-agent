@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# runtime artifacts
+data/*.db
+eval/results/raw_*.jsonl
+.DS_Store
+
+# personal documents (e.g. resume) must never be pushed
+*.docx
+*.pdf
+.claude/
